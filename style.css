@@ -812,7 +812,7 @@ button {
   }
 }
 .main-context{
-  display: block;
+  display: none;
 }
 .c-profile__header {
   display: flex;

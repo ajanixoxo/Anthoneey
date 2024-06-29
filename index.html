@@ -28,11 +28,23 @@
 <!-- 
   <link rel="preload" href="/_nuxt/static/1654278739/profile/state.js" as="script">
   <link rel="preload" href="/_nuxt/static/1654278739/profile/payload.js" as="script">
-  <link rel="preload" href="/_nuxt/static/1654278739/manifest.js" as="script">  -->
+  <link rel="preload" href="/_nuxt/static/1654278739/manifest.js" as="script">  
+  <link data-n-head="ssr" rel="manifest" href="/_nuxt/manifest.8cae53a1.json" data-hid="manifest"> -->
+  <link rel="preload" href="_nuxt/8a33995.js" as="script">
+  <link rel="preload" href="_nuxt/789d0f7.js" as="script">
+  <link rel="preload" href="_nuxt/9331327.js" as="script">
+  <link rel="preload" href="_nuxt/30d1d07.js" as="script"> 
+
+  <link rel="preload" href="_nuxt/static/1654278739/profile/state.js" as="script">
+  <link rel="preload" href="_nuxt/static/1654278739/profile/payload.js" as="script">
+  <link rel="preload" href="_nuxt/static/1654278739/manifest.js" as="script">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
   <link rel="stylesheet" href="style.css" />
+
+  <link rel="stylesheet" href="profile/style.css" />
+
 
 </head>
 
@@ -40,12 +52,12 @@
   <div id="loading-screen" class="loading-screen">
 
 
-    <h1 class="text-a" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="2000"
+    <h1 class="text-a" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="500"
         data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">HI,</h1>
-    <h1 class="name" data-aos="fade-up" data-aos-offset="200" data-aos-delay="150" data-aos-duration="2500"
+    <h1 class="name" data-aos="fade-up" data-aos-offset="200" data-aos-delay="100" data-aos-duration="1000"
         data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">I'M <span>ANTHONEEY</span></h1>
 
-    <h1 id="counter" data-aos="fade-up" data-aos-offset="200" data-aos-delay="150" data-aos-duration="2500"
+    <h1 id="counter" data-aos="fade-up" data-aos-offset="200" data-aos-delay="100" data-aos-duration="1200"
         data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">&apos;0%</h1>
 
 </div>
@@ -492,6 +504,7 @@ src="https://www.youtube.com/embed/7G3toRJmczk">
       </div>
     </div>
   </div>
+<<<<<<< HEAD
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init();
@@ -503,7 +516,7 @@ src="https://www.youtube.com/embed/7G3toRJmczk">
     
       gsap.to("#counter", {
                 innerHTML: 100,
-                duration: 2,
+                duration: 4,
                 ease: "none",
                 snap: { innerHTML: 1 },
                 onUpdate: function () {
@@ -535,6 +548,12 @@ src="https://www.youtube.com/embed/7G3toRJmczk">
   <script src="789d0f7.js" defer></script>
   <script src="9331327.js" defer></script>
   <script src="30d1d07.js" defer></script> 
+
+  <script defer src="_nuxt/static/1654278739/profile/state.js"></script>
+  <script src="_nuxt/8a33995.js" defer></script>
+  <script src="_nuxt/789d0f7.js" defer></script>
+  <script src="_nuxt/9331327.js" defer></script>
+  <script src="_nuxt/30d1d07.js" defer></script> 
 </body>
 
 </html>
