@@ -382,7 +382,9 @@ button {
 }
 
 .c-landing__desktop .hero-content .hero-image .c-image {
+
   background: url(img/thon\ \(17\).jpg);
+
   background-position: 50% 50%;
   background-size: contain;
   width:40rem;
@@ -432,6 +434,7 @@ button {
   border-radius: 50%;
   overflow: hidden;
   background: url(img/new.jpg);
+
   background-size: cover;
   background-position: 50% 50%
 }
