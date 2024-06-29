@@ -382,7 +382,7 @@ button {
 }
 
 .c-landing__desktop .hero-content .hero-image .c-image {
-  background: url(../img/thon\ \(17\).jpg);
+  background: url(/img/thon\ \(17\).jpg);
   background-position: 50% 50%;
   background-size: contain;
   width:40rem;
@@ -431,7 +431,7 @@ button {
   padding-bottom: 100%;
   border-radius: 50%;
   overflow: hidden;
-  background: url(../img/new.jpg);
+  background: url(/img/new.jpg);
   background-size: cover;
   background-position: 50% 50%
 }
@@ -601,7 +601,7 @@ button {
   height: 190px;
   padding-bottom: 100%;
   padding: 100px;
-  background: url(../img/new.jpg);
+  background: url(/img/new.jpg);
   background-size: cover;
   background-position: 50% 50%;
   z-index: 22;
@@ -646,7 +646,7 @@ button {
   line-height: 1
 }
 .c-landing__mobile .c-intro{
-  background: url(../img/new.jpg) no-repeat;
+  background: url(/img/new.jpg) no-repeat;
   background-position: left center;
   background-size: contain;
   padding-left: 10px;
